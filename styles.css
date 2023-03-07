@@ -6,7 +6,7 @@
 }
 
 .hero__section {
-    background: url(/images/heroSectionBackground.png);
+    background: url(images/heroSectionBackground.png);
     background-position: center;
     background-size: cover;
     color: white;
@@ -110,6 +110,59 @@
     display: flex;
 }
 
+.container{
+    margin: 48px 12px;
+    width: 20%;
+}
+
+.we__offer
+{
+    width: 100%;
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    gap:35px;
+    flex-wrap: wrap;
+}
+
+.we__offer .card{
+    border-radius: 10px;
+    overflow: hidden;
+    border: solid 1px grey;
+    translate: 500ms ease out all;
+}
+
+.we__offer .card img{
+    height: 170px;
+    width:300px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.we__offer .card h2{
+    padding: 8px 10px 0px 10px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.we__offer .card p{
+    font-size: 13px;
+    padding: 0px 10px 10px 10px;
+}
+
+.we__offer .card:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:600px)
 {
     .navbar__menu__container .link{ 
@@ -146,3 +199,4 @@
     border-radius: none;
 }
 }
+
